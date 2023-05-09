@@ -3,8 +3,6 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import java.awt.Color;
 import javax.swing.JTextField;
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
@@ -132,7 +130,7 @@ public class Examen {
 		btnNewButton_2.setFont(new Font("Arial Black", Font.PLAIN, 14));
 		btnNewButton_2.setBounds(396, 340, 89, 23);
 		frame.getContentPane().add(btnNewButton_2);
-		frame.setBounds(100, 100, 573, 470);
+		frame.setBounds(100, 100, 575, 470);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
