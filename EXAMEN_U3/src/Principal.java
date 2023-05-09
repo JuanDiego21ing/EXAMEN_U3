@@ -8,16 +8,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Principal {
 
 	private JFrame frame;
-	private JTextField jtext1;
-	private JPasswordField pwd;
+	
 	/**
 	 * Launch the application.
 	 */
