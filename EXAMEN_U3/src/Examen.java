@@ -1,20 +1,17 @@
-import java.awt.Color;
 import java.awt.EventQueue;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
+import java.awt.Color;
+import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+
+import java.awt.Font;
 import javax.swing.JPasswordField;
+import javax.swing.JButton;
 import javax.swing.JSeparator;
-import javax.swing.JTextField;
-
-
-
-
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Examen {
 
@@ -133,7 +130,7 @@ public class Examen {
 		btnNewButton_2.setFont(new Font("Arial Black", Font.PLAIN, 14));
 		btnNewButton_2.setBounds(396, 340, 89, 23);
 		frame.getContentPane().add(btnNewButton_2);
-		frame.setBounds(100, 100, 573, 470);
+		frame.setBounds(100, 100, 575, 470);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }

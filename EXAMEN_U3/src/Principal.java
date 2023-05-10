@@ -8,14 +8,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Principal {
 
 	private JFrame frame;
-	private JTextField jtext1;
-	private JPasswordField pwd;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -64,6 +63,10 @@ public class Principal {
 		
 		ImageIcon imagen =new ImageIcon("Estudiante.jpg");
 		JButton im1=new JButton(imagen);
+		im1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		im1.setSize(130,130);
 		im1.setLocation(103,123);
 		
@@ -83,7 +86,7 @@ public class Principal {
 		frame.getContentPane().add(im2);
 		
 		JButton btn1=new JButton("Estudiantes");
-		btn1.setSize(100,30);
+		btn1.setSize(114,30);
 		btn1.setLocation(119,293);
 		frame.getContentPane().add(btn1);
 		
